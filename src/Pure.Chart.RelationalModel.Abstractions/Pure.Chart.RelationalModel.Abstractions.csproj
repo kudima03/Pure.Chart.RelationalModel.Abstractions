@@ -8,4 +8,12 @@
     <EnablePackageValidation>true</EnablePackageValidation>
     <!--<PackageValidationBaselineVersion>0.1.0-preview.0.1.0</PackageValidationBaselineVersion>-->
   </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Pure.Chart.RelationalModel.Abstractions</PackageId>
+    <RootNamespace>Pure.Chart.RelationalModel.Abstractions</RootNamespace>
+    <AssemblyName>Pure.Chart.RelationalModel.Abstractions</AssemblyName>
+    <Authors>Dmitry Kurochkin</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.Chart.RelationalModel.Abstractions</PackageProjectUrl>
+  </PropertyGroup>
 </Project>
