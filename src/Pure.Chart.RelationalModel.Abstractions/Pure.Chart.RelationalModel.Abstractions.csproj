@@ -17,6 +17,6 @@
     <PackageProjectUrl>https://github.com/kudima03/Pure.Chart.RelationalModel.Abstractions</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Pure.Chart.Model.Abstractions" Version="0.1.0-preview.0.1.0" />
+    <PackageReference Include="Pure.Primitives.Abstractions" Version="4.3.0" />
   </ItemGroup>
 </Project>
