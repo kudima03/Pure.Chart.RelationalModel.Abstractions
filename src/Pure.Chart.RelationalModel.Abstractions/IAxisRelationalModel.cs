@@ -7,5 +7,7 @@ public interface IAxisRelationalModel
 {
     public IGuid Id { get; }
 
+    public IGuid ChartId { get; }
+
     public IString Legend { get; }
 }
