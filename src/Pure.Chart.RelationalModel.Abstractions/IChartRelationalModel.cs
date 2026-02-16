@@ -12,8 +12,4 @@ public interface IChartRelationalModel
     public IString Description { get; }
 
     public IGuid TypeId { get; }
-
-    public IGuid XAxisId { get; }
-
-    public IGuid YAxisId { get; }
 }
