@@ -25,7 +25,7 @@ This is an **interfaces-only NuGet library** — no implementations, no tests, n
 **Interfaces (all in `Pure.Chart.RelationalModel.Abstractions`):**
 - `IChartRelationalModel` — chart entity: `IGuid Id`, `IString Title`, `IString Description`, `IGuid TypeId`, `IGuid XAxisId`, `IGuid YAxisId`
 - `IChartTypeRelationalModel` — chart type lookup: `IGuid Id`, `IString Name`
-- `IChartSeriesRelationalModel` — chart series: `IGuid Id`, `IGuid ChartId`, `IString Legend`, `IString XAxisSource`, `IString YAxisSource`
+- `IChartSeriesRelationalModel` — chart series: `IGuid Id`, `IGuid ChartId`, `IString Legend`, `IString XAxisSource`, `IString YAxisSource`, `IString LineType`
 - `IAxisRelationalModel` — axis: `IGuid Id`, `IString Legend`
 
 All property types come from [`Pure.Primitives.Abstractions`](https://github.com/kudima03/Pure.Primitives.Abstractions) (sibling repo at `../../Pure.Primitives.Abstractions/`). `IGuid` and `IString` are the only primitives used.
