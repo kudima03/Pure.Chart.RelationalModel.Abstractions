@@ -17,7 +17,7 @@ Relational-model interfaces for chart entities in the **Pure** ecosystem — imm
 |-----------|-----------|-------------|
 | `IChartRelationalModel` | `Pure.Chart.RelationalModel.Abstractions` | A chart entity with identity, title, description, type reference, and X/Y axis references |
 | `IChartTypeRelationalModel` | `Pure.Chart.RelationalModel.Abstractions` | A chart type with identity and name |
-| `IChartSeriesRelationalModel` | `Pure.Chart.RelationalModel.Abstractions` | A chart series with identity, owning chart reference, legend, and X/Y axis source mappings |
+| `IChartSeriesRelationalModel` | `Pure.Chart.RelationalModel.Abstractions` | A chart series with identity, owning chart reference, legend, X/Y axis source mappings, and line type |
 | `IAxisRelationalModel` | `Pure.Chart.RelationalModel.Abstractions` | An axis with identity and legend |
 
 ### Member reference
@@ -49,6 +49,7 @@ Relational-model interfaces for chart entities in the **Pure** ecosystem — imm
 | `Legend` | `IString` | Series legend label |
 | `XAxisSource` | `IString` | Data source key mapped to the X axis |
 | `YAxisSource` | `IString` | Data source key mapped to the Y axis |
+| `LineType` | `IString` | Line style used to draw the series (e.g. "solid", "dashed", "dotted") |
 
 **`IAxisRelationalModel`**
 

@@ -14,4 +14,6 @@ public interface IChartSeriesRelationalModel
     public IString XAxisSource { get; }
 
     public IString YAxisSource { get; }
+
+    public IString LineType { get; }
 }
