@@ -32,7 +32,7 @@ All property types come from [`Pure.Primitives.Abstractions`](https://github.com
 
 **Multi-targeting:** net7.0, net8.0, net9.0, net10.0. All interfaces must remain AOT-compatible (`IsAotCompatible = true`).
 
-**Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.6.0.0`. Breaking API changes fail the build.
+**Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.7.0.0`. Breaking API changes fail the build.
 
 **Publishing:** triggered by pushing a semver tag (`*.*.*`). The tag becomes the `PackageVersion`. The `publish-nuget.yml` workflow publishes to both GitHub Packages and NuGet.org.
 
