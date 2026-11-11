@@ -74,6 +74,7 @@ Relational-model interfaces for chart entities in the **Pure** ecosystem — imm
 - .NET 8
 - .NET 9
 - .NET 10
+- .NET 11
 
 ## Installation
 
